@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"dev":"pnpx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/style.css --watch"
+	},
+	"dependencies": {
+		"tailwindcss": "^4.3.0",
+		"@tailwindcss/cli": "^4.3.0"
+	}
+}

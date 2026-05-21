@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #6c757d;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+}
+
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-sm text-white border border-white bg-primary;
+  }
+ .icon{
+  @apply flex items-center justify-center bg-white rounded-sm size-10 p-2 border-[1.5px];
+ }
+ .icon img{
+  @apply object-cover size-6
+ }
+}
